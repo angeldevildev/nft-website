@@ -1,0 +1,53 @@
+.btn-component {
+    display: flex;
+    align-items: center;
+  }
+
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: transparent; 
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 320px;
+    margin-top: 30px;
+    font-weight: 600;
+  }
+
+  .btn1 {
+    border: 1px solid rgba(73, 52, 196, 100);
+    display: flex;
+  }
+
+  .btn2 {
+    border: 1px solid #fff;
+    margin-left: 20px !important;
+    color: #000;
+    background-color: #fff;
+    display: flex;
+  }
+
+
+  @media (max-width: 1645px) {
+    .btn-component {
+        margin-left: -125px;
+    }
+  }
+  @media (max-width: 1560px) {
+    .btn-component {
+        margin-left: -178px;
+    }
+  }
+  @media (max-width: 1482px) {
+    .btn-component {
+        margin-left: -228px;
+    }
+  }
+  @media (max-width: 1428px) {
+    .btn-component {
+        margin-left: -278px;
+    }
+  }
