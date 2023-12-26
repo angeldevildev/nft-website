@@ -8,7 +8,7 @@ function Header() {
   return (
     <div className="header">
       <div className="text-header">
-        <h1>
+        <h1 className="why-h1-header">
           <span>Why</span> Us? <br />
           Discover and collect <span>extraordinary.</span>
         </h1>

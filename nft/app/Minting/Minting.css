@@ -1,0 +1,152 @@
+.minting-process {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 250px;
+    margin-top: 240px;
+  }
+  
+  .img-container-minting {
+    flex: 0 0 auto;
+  }
+  
+  .minting-img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .text-minting {
+    flex: 1;
+    margin-left: 140px;
+  }
+
+  .minting-h1 {
+    font-size: 50px;
+    font-weight: 600;
+  }
+
+  .description-container p{
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .h3-giveaway {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+
+  .list ul li {
+    list-style: circle;
+    font-size: 16px; 
+    margin-top: 10px;
+  }
+
+  .description-container p {
+    width: 70%;
+  }
+
+  .second-caption {
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 800px) {
+    .minting-process {
+      flex-direction: column;
+    }
+  
+    .img-container-minting,
+    .text-minting {
+      width: 100%;
+      margin-left: 0; 
+    }
+  }
+  @media (max-width: 1190px) {
+    .description-container p {
+        width: 100%;
+    }
+  }
+  @media (max-width: 1071px) {
+    .minting-img {
+        display: none;
+    }
+    .text-minting {
+        margin-left: -20%;
+    }
+  }
+  @media (max-width: 631px) {
+    .minting-h1 {
+        width: 150%;
+    }
+    .text-minting {
+        margin-left: -28%;
+    }
+  }
+  @media (max-width: 571px) {
+    .text-minting {
+        margin-left: -40%;
+    }
+  }
+  @media (max-width: 463px) {
+    .text-minting p {
+        width: 175%;
+    }
+    .text-minting {
+        margin-left: -80%;
+    }
+  }
+  @media (max-width: 383px) {
+    .text-minting {
+        width: 115%;
+        margin-left: -110%;
+    }
+    .h3-giveaway {
+        width: 150%;
+    }
+  }
+  @media (max-width: 339px) {
+    .text-minting {
+        margin-left: -170%;
+        width: 130%;
+    }
+    .h3-giveaway {
+        width: 200%;
+    }
+    .list li {
+        width: 160%;
+    }
+  }
+  @media (max-width: 315px) {
+    .text-minting {
+        margin-left: -230%;
+    }
+    .h3-giveaway {
+        width: 246%;
+    }
+    .text-minting p {
+        width: 250%;
+    }
+    .list li {
+        width: 280%;
+    }
+  }
+  @media (max-width: 299px) {
+    .text-minting {
+        margin-left: -270%;
+    }
+    .h3-giveaway {
+        width: 279%;
+    }
+  }
+  @media (max-width: 277px) {
+    .text-minting {
+        margin-left: -410%;
+    }
+    .text-minting p {
+        width: 380%;
+    }
+  }
+  @media (max-width: 263px) {
+    .text-minting {
+        margin-left: -590%;
+    }
+  }
